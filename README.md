@@ -165,7 +165,7 @@ Chemistry and Biology departments as the real client: **Sergej Stojanović, Niko
 **My role (Sergej Stojanović): I led the project.**
 
 - **Project lead:** I broke the work down and assigned it. I wrote 214 of the 218 issues in the repository and
-  delegated tasks to the team, ran the sprints, and reviewed and merged every PR.
+  delegated tasks to the team, ran the sprints, and reviewed and merged most of the PRs.
 - **Client side:** I went to the meetings with the department, gathered the requirements, and presented the
   application to its future users and at the 29th Water Workshop.
 - **Product and design:** I designed the frontend concept (screens and user flows) that the team then implemented.
