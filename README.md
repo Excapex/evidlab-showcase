@@ -17,7 +17,7 @@
 ![Render](https://img.shields.io/badge/Render-pilot_%26_demo-46E3B7?logo=render&logoColor=black)
 ![Astro](https://img.shields.io/badge/Astro-website_on_Vercel-BC52EE?logo=astro&logoColor=white)
 
-*Team project, led by Sergej Stojanović · Faculty of Sciences (PMF), University of Novi Sad · real departmental client · in pilot use at the Department of Chemistry since October 2026*
+*Team project, led by Sergej Stojanović · Faculty of Sciences (PMF), University of Novi Sad · real departmental client · in pilot use at the Departments of Chemistry and Biology since October 2026*
 
 </div>
 
@@ -194,7 +194,7 @@ the hazardous-chemicals list, the responsible person on a batch, the shared netw
 
 - Defended as a course project on 16 July 2026.
 - Presented to the departments' future users on 23 September 2026; their feedback drove the October work (dashboard charts, reports, procurement over the full history, package checkouts).
-- **Release 1.1.0 (16 Oct 2026) is in pilot use at the Department of Chemistry, PMF Novi Sad**, hosted on Render, with official adoption to follow. Pilot results will be published when the pilot ends.
+- **Release 1.1.0 (16 Oct 2026) is in pilot use at the Departments of Chemistry and Biology, PMF Novi Sad**, hosted on Render, with official adoption to follow. Pilot results will be published when the pilot ends.
 - A public website and a demo instance with fictional data are live for other labs.
 - A generic product fork (English/Serbian UI) was also pitched at a health-tech hackathon in July 2026.
 
