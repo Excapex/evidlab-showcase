@@ -17,7 +17,7 @@
 ![Render](https://img.shields.io/badge/Render-pilot_%26_demo-46E3B7?logo=render&logoColor=black)
 ![Astro](https://img.shields.io/badge/Astro-website_on_Vercel-BC52EE?logo=astro&logoColor=white)
 
-*Team project · Faculty of Sciences (PMF), University of Novi Sad · real departmental client · in pilot use at the Department of Chemistry since October 2026*
+*Team project, led by Sergej Stojanović · Faculty of Sciences (PMF), University of Novi Sad · real departmental client · in pilot use at the Department of Chemistry since October 2026*
 
 </div>
 
@@ -162,11 +162,17 @@ Measured on the private repo on 27 Oct 2026 (`develop` = `main`, release 1.1.0).
 Three-person Scrum team (course *Information Systems Development Process*, PMF Novi Sad, 2025/26), working with the
 Chemistry and Biology departments as the real client: **Sergej Stojanović, Nikola Vlačić, Boris Šejmeši**.
 
-**My role (Sergej Stojanović):** data & catalog owner, database coordinator, QA and Scrum artefacts; later the AI
-layer, procurement, production readiness and the pilot roll-out. I own the GitHub repository, review and merge PRs,
-cut releases, and present the project to the department's users. I authored about two-thirds of the merged PRs.
+**My role (Sergej Stojanović): I led the project.**
 
-What I built or led (from the PR history):
+- **Project lead:** I broke the work down and assigned it. I wrote 214 of the 218 issues in the repository and
+  delegated tasks to the team, ran the sprints, and reviewed and merged every PR.
+- **Client side:** I went to the meetings with the department, gathered the requirements, and presented the
+  application to its future users and at the 29th Water Workshop.
+- **Product and design:** I designed the frontend concept (screens and user flows) that the team then implemented.
+- **Testing:** I tested every release before it went out, on top of the automated test suite.
+- **Code:** I authored about two-thirds of the merged PRs (150 of 235) and about 75% of the non-merge commits.
+
+What I built (from the PR history):
 
 - **Data foundation:** canonical chemical → variant → batch model, catalog API, Flyway schema coordination (I assign migration numbers), seed data.
 - **Catalog & stock:** locations, synonyms, filters, per-chemical audit timeline, SDS upload, receiving deliveries for existing chemicals, receipt price correction with an audit trail, FIFO valuation, archiving instead of deleting, duplicate detection, incomplete-data screen.
@@ -178,7 +184,7 @@ What I built or led (from the PR history):
 - **Demo & website:** the public demo deployment with a generated "two years of use" dataset, and the public website on Vercel (both built with AI coding assistance and reviewed by me).
 - **Optional AI features:** SDS summaries/Q&A, request dictation, a tool-calling assistant grounded on inventory data with a golden-scenario test harness, all behind a feature flag.
 
-Teammates: **Nikola Vlačić** owned authentication & users, loans, e-mail notifications, and in the pilot phase
+Teammates implemented the tasks assigned to them: **Nikola Vlačić** owned authentication & users, loans, e-mail notifications, and in the pilot phase
 "approve less than requested", the write-offs report, the checkouts report and PDF fixes, consumption by project,
 and rate limits and secret guards. **Boris Šejmeši** built the frontend foundation, request approval / stock
 transactions, reports and the original procurement algorithm, and later the dashboard charts, the Reports screen,
